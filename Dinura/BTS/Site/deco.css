@@ -1,0 +1,32 @@
+h1
+{
+	color: black;
+	text-align: center;
+}
+body
+{
+	background-image: url(image/demon.png);
+}
+#bouton
+{
+	font-family: cursive;
+	background-color: blue;
+	color: white;
+}
+h2
+{
+	color: white;
+}
+h3
+{
+	color: gold;
+}
+p
+{
+	color: white;
+}
+a
+{
+	text-align: center;
+	color: teal
+}

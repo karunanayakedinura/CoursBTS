@@ -1,0 +1,41 @@
+ALGO Nombre 1 a 10
+
+
+Avec boucle TANTQUE
+VAR 
+	i: entier
+DEBUT 
+	i <-- 1 
+	AFFICHER ("Voici les nombres de 1 a 10.")
+	TANT QUE i <= 10 FAIRE
+	 	AFFICHER (i)
+		i <-- i+1 
+	FINTANQUE
+FIN	 
+
+
+Avec boucle POUR
+VAR 
+	i: entier
+DEBUT 
+	AFFICHER ("Voici les nombres de 1 a 10.")
+	POUR i DE 1 A 10 FAIRE
+	 	AFFICHER (i) 
+	FINPOUR
+FIN	 
+
+
+LANGAGE C 
+
+Avec la boucle POUR
+for(i=1;i<=10;i++)
+        {
+        printf("%d \n",i);
+        }
+
+Avec la boucle TANTQUE
+while(i<=10)
+        {
+        printf("%d \n",i);
+        i = i+1;
+        }

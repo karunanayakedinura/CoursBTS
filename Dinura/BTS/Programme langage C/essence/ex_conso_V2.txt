@@ -1,0 +1,32 @@
+Const
+	PrLD = 1.722, PrLE = 1.939
+
+VAR
+	frM, frE, coutCarbu : réel
+	nbKm, cyl : entier
+	typCarbu : caractère
+
+Debut
+	Afficher " Ce programme calcule et affiche les frais mensuels d'un véhicule..."	
+	Afficher " Saisir le nombre de kilometre, le type de carburant (E pour essence ou G pour diésel), la 		cylindrée (en cm3) "
+	Saisir nbKm, typCarbu, cyl
+
+	Si typCarbu = 'g' ou typCarbu = 'G'
+	Alors   coutCarbu <-- ((8/100)*PrLD)*nbKm/12
+	Sinon
+		Si cyl > 2000
+			Alors coutCarbu <-- ((10/100)*PrLE)*nbKm/12
+		Sinon 
+			Alors coutCarbu <-- ((8/100)*PrLE)*nbKm/12
+		Finsi	
+	Finsi
+
+	Si typCarbu = 'g' ou typCarbu = 'G'
+	Alors 
+		frE = coutCarbu*0.7
+	Sinon
+		frE = coutCarbu*0.6
+	Finsi
+
+	Afficher ("les frais mensuels sont de", frE + coutCarbu,"d'euros");
+Fin

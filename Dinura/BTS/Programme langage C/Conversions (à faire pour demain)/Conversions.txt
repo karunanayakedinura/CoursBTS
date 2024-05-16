@@ -1,0 +1,52 @@
+procédure  convert_duree(E duree : entier)
+VAR H,M,S :ENTIER
+DEBUT
+	H ← duree DIV 3600
+	M ← (duree MOD 3600) DIV 60
+	S ← (duree MOD 3600) MOD 60
+	AFFICHER « Une duree de »,duree, «sec correspond a »,H,«:»,M,«:»,S,«:» 	
+FIN
+
+Fonction convert_horaire(E h: entier, E m:entier, E s:entier):entier
+DEBUT
+	retourner h*3600+m*60+s
+FIN
+
+programme principal
+Var 
+	h,m,s,duree,h2,m2,s2,duree2,diff : entier
+DEBUT
+	AFFICHER « Le programme demande a l’utilisateur de saisir un nombres de secondes compris entre 0 et 86400 secondes et affiche la conversion sous forme HH:MM:SS»
+    REPETER
+            Afficher " Saisir heure"
+            Saisir h
+    jusqu'a h>=0 et h<=23
+    REPETER 
+             Afficher" Saisir minutes"
+             Saisir m
+    Juqu'a m>=0 et m<=59
+    REPETER
+          Afficher " Saisir secondes"
+          Saisir s
+    jusqu'a s>=0 et s<=59
+	duree<--convert_horaire(h,m,s)
+	REPETER
+            Afficher " Saisir heure"
+            Saisir h2
+    jusqu'a h2>=0 et h2<=23
+    REPETER 
+             Afficher" Saisir minutes"
+             Saisir m
+    Juqu'a m2>=0 et m2<=59
+    REPETER
+          Afficher " Saisir secondes"
+          Saisir s2
+    jusqu'a s2>=0 et s2<=59
+	duree2<--convert_horaire(h2,m2,s2)
+	si duree<duree2 alors
+		diff<--duree2-duree
+	sinon
+		diff<--duree-duree2
+	FinSi
+	convert_duree(diff)	
+Fin

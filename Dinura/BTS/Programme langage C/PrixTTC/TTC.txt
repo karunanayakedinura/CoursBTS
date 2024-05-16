@@ -1,0 +1,45 @@
+Algo TTC (avec boucle TANTQUE)
+
+VAR
+	ttc,ht: réel
+	car : caractère
+	q : entier
+DEBUT
+	AFFICHER("Ce programme va calculer le prix total ttc d'achats de produit en fonction du prix ht et la quantité choisi")
+	car <-- 'v'
+	ttc <- 0
+	TANT QUE car <> 'f' FAIRE 
+		AFFICHER("Veuillez mettre le prix HT du produit.")
+		SAISIR(ht)
+		AFFICHER("Veuillez mettre la quantité que vous souhaitez prendre.")
+		SAISIR(q)
+		ttc <-- ttc + (ht*q*1.2)
+		AFFICHER("Veuillez vous savoir le prix total TTC d'un autre produit? ('f' pour arreter le programme)")
+		SAISIR(car)
+	FINTANTQUE
+	
+	AFFICHER("Le prix TotalTTC du produit est de :", ttc)
+FIN
+
+Algo TTC (avec boucle REPETER)
+
+VAR
+	ttc,ht: réel
+	car : caractère
+	q : entier
+DEBUT
+	AFFICHER("Ce programme va calculer le prix ttc d'un produit en fonction du prix ht et la quantité choisi")
+	ttc <-- 0
+	REPETER  
+		AFFICHER("Veuillez mettre le prix HT du produit.")
+		SAISIR(ht)
+		AFFICHER("Veuillez mettre la quantité que vous souhaitez prendre.")
+		SAISIR(q)
+		ttc <-- ttc + (ht*q*1.2)
+		AFFICHER("Veuillez vous savoir le prix total TTC d'un autre produit? ('f' pour arreter le programme)")
+		SAISIR(car)
+	JUSQU'A car = f
+	AFFICHER("Le prix TotalTTC du produit est de :", tcc")
+FIN
+
+3) ce n'est pas possible avec une boucle POUR car on ne connait pas le nombre de fois que nous allons executer en boucle le programme

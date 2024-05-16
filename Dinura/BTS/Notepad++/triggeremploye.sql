@@ -1,0 +1,13 @@
+DROP TRIGGER IF EXISTS VerifSalaire;
+DELIMITER //
+CREATE TRIGGER VerifSalaire
+BEFORE INSERT ON Employe 
+FOR EACH ROW
+BEGIN 
+	IF NEW.Salaire < 1500 THEN
+		SIGNAL SQLSTATE '45000'
+		SET MESSAGE_TEXT = 'Le salaire doit etre superieur a 1500';
+	END IF;
+END;
+//
+DELIMITER ;

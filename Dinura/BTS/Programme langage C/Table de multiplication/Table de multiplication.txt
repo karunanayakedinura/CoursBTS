@@ -1,0 +1,17 @@
+Algo Table de multiplication
+
+VAR 
+	i,nb : entier
+DEBUT
+	AFFICHER ("Ce programme vous affiche la ou les tables de votre choix")
+	REPETER
+		AFFICHER ("Quelle table de multiplication souhaitez vous afficher?")
+		SAISIR nb 
+		POUR i DE 1 A 10
+			AFFICHER (nb ," x ", i , " = " , nb*i)
+		FINPOUR
+		AFFICHER ("Voulez-vous afficher une autre table de multiplication? (o/n)")
+		SAISIR reponse  
+	JUSQU'A reponse = 'n'
+	AFFICHER ("Fin du programme")
+FIN 

@@ -1,0 +1,11 @@
+ALGO Table7
+
+VAR 
+	i : entier 
+DEBUT 
+	i <-- 1
+	AFFICHER ("La table de multiplication de 7 est:")
+	POUR i DE 1 A 10 FAIRE
+		AFFICHER (i, " x 7 = ", 7*i) 
+	FINPOUR
+FIN	 

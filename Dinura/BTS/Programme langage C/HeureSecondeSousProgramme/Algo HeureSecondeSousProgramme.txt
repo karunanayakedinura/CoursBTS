@@ -1,0 +1,49 @@
+FONCTION heure(E h2 : entier,E m2 : entier,E s2 : entier):entier	
+DEBUT
+	TANTQUE m <> 0 FAIRE
+		m <-- m - 1
+		s <-- s + 60
+	FINTANTQUE
+	TANTQUE h <> 0 FAIRE 
+		h <-- h - 1
+		s <-- s + 3600
+	FINTANTQUE 
+	RETOURNER s2
+FIN
+
+PROCEDURE seconde (E s3 : entier)
+VAR
+	h3,m3 : entiers
+DEBUT
+	h3 <-- O 
+	m3 <-- O
+	TANTQUE s3 >= 3600 FAIRE
+		s3 <-- s3 - 3600
+		h3 <-- h3 + 1
+	FINTANTQUE
+	TANTQUE s3 >= 60 FAIRE
+		s3 <-- s3 - 60
+		m3 <-- m3 + 1
+	FINTANTQUE
+	AFFICHER(h3,":",m3,":",s3)
+FIN
+
+ALGO HeureSecondeSousProgramme
+
+VAR 
+	h,m,s,h1,m1,s1,diffsec : entiers
+DEBUT
+	AFFICHER("Ce programme va calculer et afficher la difference en secondes de ces 2 horaires, puis l'afficher en h,m,s.")
+	AFFICHER(""Veuillez saisir la premiere heure , minute et seconde.")
+	SAISIR(h,m,s)
+	AFFICHER("Veuillez saisir la deuxieme heure, minute et seconde.")
+	SAISIR(h1,m1,s1)
+	diffsec <-- heure(h,m,s) - heure(h1,m1,s1)
+	SI diffsec <= 0 FAIRE
+		diffsec <-- -diffsec
+	SINON
+		diffsec <-- diffsec
+	FINSI
+	AFFICHER ("La difference de secondes entre les 2 horaires est de",diffsec)
+	AFFICHER ("Son affichage en format heure:minute:seconde est de",seconde(diffsec))
+FIN

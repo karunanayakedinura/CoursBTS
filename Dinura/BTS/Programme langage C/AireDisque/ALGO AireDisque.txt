@@ -1,0 +1,16 @@
+ALGO AIRE 
+VAR 
+	rayon : réel 
+	réponse : caractère 
+DEBUT
+	AFFICHER ("Calcul de l'aire d'un disque")
+	réponse <-- 'o'
+	TANTQUE réponse == 'o' FAIRE 
+		AFFICHER ("Entrez le rayon d'un cercle en cm"
+		SAISIR rayon
+		AFFICHER ("L'aire du disque est", rayon^2 * 3.14, "cm²"
+		AFFICHER ("Voulez-vous l'aire d'un autre disque? o/n)"
+		SAISIR (réponse)
+	FINTANTQUE
+	AFFICHER ("Le programme est terminé!")
+FIN

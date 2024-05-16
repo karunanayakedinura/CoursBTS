@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1665664318 source:d:\dinura\bts\programme langage c\cubeboucle\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

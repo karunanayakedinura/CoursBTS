@@ -1,0 +1,35 @@
+ITIL = Information Technology Infrastructure Librairy 
+
+1991 --> ITIMF (IT Information Management Forum) fait pour échanger idées/expériences entre utilisateurs ITIL
+
+Version 2 ITIL --> 1990 à 2004
+Elle contient 9 livres en montrant le pont entre la technologie et les affaires basé sur des processus
+pour fournir les services adéquats aux clients d'affaires.
+
+Support des services = processus opérationnels dans partie "Exploitation des services"
+
+Fourniture des services = aspects liés fournitures services informatiques. 
+Processus dans "Conception des services" et "Transition des services"
+
+1.3
+2004 --> ITIL Refresh pour mettre nouvelles technologies/enjeux émergents des fournisseurs de services des TI.
+
+2.1 
+Fournisseurs de services partagent différents caractéristiques similaires:
+ - Réelle compréhension de la matière dont ils fournissent de la valeur à leurs clients 
+   (En anticipants leurs besoins au lieu de réagir) 
+ 
+ - Utilisation systématique de pratiques de gestion des services
+   (Amènent stabilité,anticipation et favorise culture "fournisseur de services")
+
+Qualité de service --> Fournisseur de services
+
+Types de conseils que va donner ITIL:
+Incident 
+Statégie 
+
+Objectif primaire c'est la satifaction des clients  	
+
+Efficience c'est d'accomplir sa mission en s'assurant qu'il ne reviendrait plus 
+et en utilisant le moins de ressources possibles
+

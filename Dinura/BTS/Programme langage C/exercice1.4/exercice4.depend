@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1663311994 source:r:\campus\sio\sio2024\bloc1 - dev\programmation\exercice4\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1663318604 source:r:\campus\sio\sio2024\bloc1 - dev\programmation\exercice1.4\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -1,0 +1,19 @@
+Compte_rendu_SISR du 19/01/2023
+
+Groupe 4 SLAM : Huang Enzo et Hussain Haris
+
+Les Objectifs à accomplir : 
+
+Faire la mission 3 (Etude et analyse du réseau de la M2L, configuration d’un réseau pour une nouvelle ligue avec Packet Tracer) et la mission 4 (Calcul VLAN)
+
+Ce que l'on a fait lors de la séance :
+
+Nous nous sommes avancés sur les missions 3 et 4.
+Pour la mission 3, on a fait la configuration des appareils entre eux sur le reseaux LAN M2L, la réalisation du shéma packet tracer, la recherche tkip ssid
+et configurations pour d'autre postes avec DHCP
+Pour la mission 4, On a remplit un tableau qui était par rapport au VLAN avec le schema de plusieurs étages avec plusieurs postes où
+il fallait donner l'adresse réseau et de diffusion, et lister le nombre de Vlan à créer
+
+Difficultés rencontrée: 
+
+On était pas en présentiel, on a donc du se prendre en contact en étant en appel discord afin de pouvoir travailler ensemble.

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1667407534 source:d:\dinura\bts\programme langage c\calculatrice3.0\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

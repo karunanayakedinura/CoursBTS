@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html> 
+
+<STRONG>Page 5 : formulaire jolie</STRONG>
+  
+ <link rel="stylesheet" type="text/css" href="style.css">
+  
+<div align="right">
+<a href="index.html"> Page Principale </a>
+</div>
+
+<div align="right">
+<a href="exo_tableau_1.html"> Page 2 : exo_tableau_1 </a>
+</div>
+  
+<div align="right">
+<a href="SIO1.html"> Page 3 : tableau coeff </a>
+</div>
+  
+<div align="right">
+<a href="formulaire_brut.html"> Page 4 : formulaire brut </a>
+</div>
+
+ <div align="center">
+<body>
+  <h2>Services Informatiques aux Organisations</h2>
+  <h3>Les Formulaires</h3>
+
+  <div align = left>
+<label for="nom">Votre nom  : </label>
+</div>
+  
+<div align = center>  
+<input type="text" id="nom" name="nom" required>
+</div>  
+  <br>
+<div align = left>  
+<label for="prénom">Votre prénom : </label>
+</div> 
+
+<div align = center>   
+<input type="text" id="prénom" name="prénom" required>
+</div>
+
+<div align = left> 
+<form action="/page-traitement-donnees" method="post">
+  
+   <p>Cochez les matières que vous aimez :</p>
+</div>  
+
+<div align = center>  
+   <input type="checkbox" name="informatique" value="informatique">Informatique<br> 
+   <input type="checkbox" name="français" value="français">Français<br> 
+   <input type="checkbox" name="mathématiques" value="mathématiques">Mathématiques<br> 
+   <input type="checkbox" name="anglais" value="A
+     anglais">Anglais 
+</p> 
+</div>
+
+<div align = left>  
+   <p>Quelle option avez-vous choisie :</p>
+</div>
+
+<div align = center>   
+   <input type="radio" name="option" value="SLAM">SLAM<br> 
+   <input type="radio" name="option" value="SISR">SISR 
+</p> 
+</div>
+
+<div align = left>   
+<label for="sujet">Quelle est votre seconde langue :</label>
+</div>
+
+<div align = center>   
+<select name="sujet" id="sujet" required>
+<option value="" disabled selected hidden>Choisissez la langue</option>
+<option value="Espagnol">Espagnol</option>
+<option value="Anglais">Anglais</option>
+<option value="Allemand">Allemand</option>
+<option value="Autres">Autres</option>
+<option value="Aucune">Aucune</option>
+</select>
+</div>
+
+<p>
+<div align = left>
+<label for="message">Vos observations : </label>
+</div>  
+  <br>
+<div align = center> 
+<textarea id="message" name="message" placeholder="Votres avis nous intéresse...." required></textarea>
+</div> 
+  
+<div>
+<button type="submit">Annuler </button>
+<button type="submit">Envoyer mon formulaires </button>
+</div>
+
+</form>
+</html>

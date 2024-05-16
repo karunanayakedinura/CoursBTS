@@ -1,0 +1,32 @@
+ALGO Table quelconque
+
+VAR 
+	i,n : entier
+DEBUT 
+	i <-- 1 
+	AFFICHER ("Veuillez saisir la table que vous souhaitez.")
+	SAISIR (n)
+	AFFICHER ("La table de multiplication de ",n," est:")
+	TANT QUE i <= 10 FAIRE
+	 	AFFICHER (i, " x ",n," = ", n*i)
+		i <-- i+1 
+	FINTANQUE
+FIN	 
+
+
+
+
+LANGAGE C 
+
+Avec la boucle POUR
+for(i=1;i<=10;i++)
+        {
+        printf("%d x %d = %d \n",i,n,i*n);
+        }
+
+Avec la boucle TANTQUE
+while(i<=10)
+        {
+        printf("%d x %d = %d \n",i,n,i*n);
+        i = i+1;
+        }

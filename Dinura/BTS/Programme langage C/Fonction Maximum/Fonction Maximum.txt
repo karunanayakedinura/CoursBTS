@@ -1,0 +1,20 @@
+Ecrire un sous programme qui renvoie le maximum parmi 2 valeurs (entiers) transmises en paramètres.
+Ecrire le programme principal permet la saisie des 2 nbr 
+
+FONCTION CALCULMAXIMUM(E nbr1 : entier,E nbr2 : entier):entier
+DEBUT 
+	SI nbr1<nbr2 ALORS
+		RETOURNER nbr2
+	SINON
+		RETOURNER nbr1
+FIN 
+
+ALGO Maximum
+VAR
+	nb1,nb2:entiers
+DEBUT 
+	AFFICHER("Ce programme va renvoyer le maximum parmi 2 valeurs.")
+	AFFICHER("Veuillez saisir le premier nombre, puis le 2eme nombre.")
+	SAISIR (nb1,nb2)
+	AFFICHER("Le maximum entre",nb1,"et",nb2,"est",CALCULMAXIMUM(nb1,nb2))
+FIN 

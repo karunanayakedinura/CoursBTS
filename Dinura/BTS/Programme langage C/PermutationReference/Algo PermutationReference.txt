@@ -1,0 +1,20 @@
+PROCEDURE permut (E/S a : entiers,E/S b : entier)
+VAR 
+	c:entier
+DEBUT
+	c <-- b
+	b <-- a 
+	a <-- c
+	AFFICHER("a = ",a,"b = ",b)
+FIN
+
+ALGO permutation 
+VAR
+	a1,b1
+DEBUT
+	AFFICHER("Ce programme va inserver les valeurs de 2 variables différentes.")	
+	AFFICHER("Saisir nb1 et nb2")
+	SAISIR(nb1,nb2)
+	permut(@nb1,@nb2)
+	AFFICHER("nb1 = ",nb1," nb2 =",nb2)
+FIN

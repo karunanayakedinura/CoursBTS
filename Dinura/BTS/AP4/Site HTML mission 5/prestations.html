@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<STRONG>Prestations</STRONG>
+
+<div id="menu">
+  <ul>
+    <li><a href="index.html">Accueil</a></li>
+    <li><a href="facturation.html">Facturation</a></li>
+  </ul>
+</div>
+<br>
+<ull>
+<p><lli><b onclick="myFunction()"><a>Ajouter une ligne</a></lli></p>
+</ul>
+<div id="myDIV"> </div>
+  
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === " ") {
+    x.innerHTML = "Salut toi comment vas tu ";
+  } else {
+    x.innerHTML = " ";
+  }
+}
+</script>
+
+</html>

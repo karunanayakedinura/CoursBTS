@@ -1,0 +1,42 @@
+ALGO Heure
+VAR
+	h,m,s,hi,mi,si : entiers
+DEBUT 
+	AFFICHER("Ce programme va convertir la forme heure:minute:seconde en secondes")
+	AFFICHER("Selectionner votre heure.") 
+	SAISIR(h)
+	TANTQUE h < 0 OU h > 23 FAIRE
+		AFFICHER("Erreur : votre nombre d'heure doit etre compris entre 0 et 23.")
+		AFFICHER("Selectionner votre heure.)
+		SAISIR(h)
+	FINTANTQUE
+	AFFICHER("Selectionner votre minute.") 
+	SAISIR(m)
+	TANTQUE m < 0 OU m > 59 FAIRE
+		AFFICHER("Erreur : votre nombre de minutes doit etre compris entre 0 et 59.")
+		AFFICHER("Selectionner votre minute.)
+		SAISIR(m)
+	FINTANTQUE
+	AFFICHER("Selectionner votre seconde.") 
+	SAISIR(h)
+	TANTQUE s < 0 OU s > 59 FAIRE
+		AFFICHER("Erreur : votre nombre de secondes doit etre compris entre 0 et 59.")
+		AFFICHER("Selectionner votre seconde.)
+		SAISIR(s)
+	FINTANTQUE
+	hi <-- h
+	mi <-- m
+	si <-- s
+	TANTQUE m <> 0 FAIRE
+		m <-- m - 1
+		s <-- s + 60
+	FINTANTQUE
+	TANTQUE h <> 0 FAIRE 
+		h <-- h - 1
+		s <-- s + 3600
+	FINTANTQUE 
+	AFFICHER ("La conversion de",hi,":",mi,":",si,"est de",s,"secondes.")
+FIN
+
+
+formule de calcul : duree <-- h*3600+m*60+s

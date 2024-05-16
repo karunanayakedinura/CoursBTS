@@ -1,0 +1,28 @@
+PROCEDURE AFFICHECARRE(E nb:réels) 
+DEBUT 	
+	AFFICHER (nb,"au carré est égale a",nb*nb)
+FIN
+
+
+
+
+
+
+
+
+
+ALGO Carré
+
+VAR
+	nbr:entier
+DEBUT 
+	AFFICHER("Ce programme va calculer et afficher le carre d'un nombre.")
+	AFFICHER("Veuillez sasir un nombre.")
+	SAISIR(nbr)
+	AFFICHER ("Le carré de",nbr,"est de",CALCULECARRE(nbr))
+FIN
+
+FONCTION CALCULECARRE(E nb:entier):entier 
+DEBUT 	
+	RETOURNER nb*nb
+FIN

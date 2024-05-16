@@ -1,0 +1,64 @@
+Ecrire un sous programme qui reçoit en paramètre deux variables entières et 
+qui les permute.
+Le programme principal permet de saisir les valeurs à permuter.
+V1 avec des paramètres d'entrée (passage par valeur)
+V2 avec des paramètres en E/S (passage par référence ou adresse)
+
+Algo PPV1
+VAR n1, n2 : entier
+DEBUT
+	AFFICHER « Le programme demande a l’utilisateur de saisir ...»   
+    Afficher " Saisir deux entiers"
+    Saisir n1, n2
+	permut (n1, n2)
+	Afficher "n1 = " n1
+	Afficher "n2 = " n2
+FIN
+
+procedure permut(E a:entier, E b:entier)
+VAR c : entier
+DEBUT
+	Afficher "avant permutation a = " a
+	Afficher "avant permutation b = " b
+	c <-- b
+	b <-- a
+	a <-- c
+	Afficher "après permutation a = " a
+	Afficher "après permutation b = " b
+FIN
+
+Algo PPV2
+VAR n1, n2 : entier
+DEBUT
+	AFFICHER « Le programme demande a l’utilisateur de saisir ...»   
+    Afficher " Saisir deux entiers"
+    Saisir n1, n2
+	permut (@n1, @n2)
+	Afficher "n1 = " n1
+	Afficher "n2 = " n2
+FIN
+
+procedure permut(E/S a:entier, E/S b:entier)
+VAR c : entier
+DEBUT
+	Afficher "avant permutation a = " a
+	Afficher "avant permutation b = " b
+	c <-- b
+	b <-- a
+	a <-- c
+	Afficher "après permutation a = " a
+	Afficher "après permutation b = " b
+FIN
+
+En langage C : 
+void permut(int *a, int *b)
+VAR c : entier
+DEBUT
+	Afficher "avant permutation a = " *a
+	Afficher "avant permutation b = " *b
+	c <-- *b
+	*b <-- *a
+	*a <-- c
+	Afficher "après permutation a = " *a
+	Afficher "après permutation b = " *b
+FIN

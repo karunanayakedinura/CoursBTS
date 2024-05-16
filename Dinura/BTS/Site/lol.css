@@ -1,0 +1,29 @@
+body
+{
+	background-image: url(image/brawls.jpg);
+	text-shadow: 1px 1px rgba(0,0,0,1);
+	color:white;
+	font-family: : helvetica;
+}
+p
+{
+	color:white
+	text-shadow: 1px 1px rgba(0,0,0,1);
+	font-family: helvetica;
+}
+h2
+{
+	color : gold;
+}
+h3
+{
+	color: blue;
+}
+.button
+{
+	text-align: center;
+}
+h1
+{
+	color: #9400D3;
+}

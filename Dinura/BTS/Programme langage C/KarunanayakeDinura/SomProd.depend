@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1664125557 source:c:\programme codeblock\somprod\main.c
+	<stdio.h>
+	<stdlib.h>
+

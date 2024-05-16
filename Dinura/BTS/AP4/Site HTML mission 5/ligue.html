@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+  
+<STRONG>Ligue</STRONG>
+  
+<div id="menu">
+	<ul>
+	<li><a href="index.html">Accueil</a></li>
+	</ul>
+</div>
+<br>
+<br>
+
+<div id="menu">
+	<ull>
+	<lli><b onclick="myFunction()"><a>Ajouter une ligue</a></lli>
+	</ull>
+</div>
+<br>
+</html>
+<br>
+<span id="span_txt2">Nom de la ligue</span>
+ 
+<script type="text/javascript">
+function toggle_text(id) {
+  var span = document.getElementById(id);
+  if(span.style.display == "none") {
+    span.style.display = "inline";
+  } else {
+    span.style.display = "none";
+  }
+}
+  
+</script> <br>
+</body>
+<p><b onclick="myFunction()">Ajouter une ligne</p>
+<div id="myDIV"> </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.innerHTML === " ") {
+    x.innerHTML = "Salut toi comment vas tu ";
+  } else {
+    x.innerHTML = " ";
+  }
+}
+</script>

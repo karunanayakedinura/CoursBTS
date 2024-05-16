@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1664392528 source:d:\dinura\bts\programme langage c\intervalle booleen\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+

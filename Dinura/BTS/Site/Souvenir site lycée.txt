@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Port Folio Dinura Karunanayake</title>
+    </head>
+
+    <body>
+		<a href = "page2.html" <button class="button button1">Green</button></a>
+		<button class="button button2">Blue</button>
+    	<h1> yo </h1>
+    	<h2>
+    	LGD Fireball, youtubeur extrêmement connue sous le nom de Dinura Karunanayake, 16 ans, à réussi à se faire entendre des autres youtubeurs brawl stars. Avec son humour plutot malaisante, c'était pas très bien partie pour ce jeune homme, mais grâce à son niveau extrêmement incroyable comme du jamais vu sur brawl stars, à réussi à se faire connaître et à être aimé et comporte actuellement 17 abonnées.</h2>
+    	<p> Voici le lien de sa chaîne pour voir ses vidéos incroyables et on en parlera de sa vie privée plus tard.</p>
+    	<iframe src="https://www.youtube.com/channel/UC6Nis_lo2tqafpfj_Ti80pg">
+    	style="overflow: hidden; height: 105px; width: 300px; border: 0;"
+        frameBorder="0">
+		</iframe>
+		
+		<h2> Parlons maintenant de sa vie privée, LGD Fireball est née le 05 Octobre 2004 à Saint Cloud dans le 92. Il s'est ensuite déplacé dans le 93 à Aulnay-sous-bois pour venir faire le thug de la street. Il à un père, une mère, et 4 frères (oui mes parents voulaient pas fairer de soeur). Il à étudier à l'école à partir de l'âge de 3ans à la maternelle. A l'école il est plûtot timide et ne parle pas trop en classe car il a la flemme de parler sauf avec ses potes. Il adore les jeux vidéos et les jeux qu'ils préferent sont: les jeux Mario qui sont les jeux de son enfance, Clash Royale qui à tout de suite fait aimer LGD Fireball et qui a participé à des tournois CR francophones, son meilleur résultat à été 2ème, Clash of Clan qui a commencé y a 1an maintenant et qui est HDV9 non-préma et qui essaye de bien gérér son clan, et le dernier jeu est Brawl Stars, aime bien jouer avec son frère et son cousin et tryhard le jeu et qui à en ce moment 25900 tr et qui essaye de rush les 26000 tr.</h2>
+		<button onclick="maFonction()">Cliquer ici</button>
+		<h3 class="gold_glow"> Voici son brawler préfére et son skin préfere sur Brawl stars </h3>
+		<a onMouseOver="changerImage(1);" onMouseOut="remettreImage(1);"><img id="image1" src="image/tara.jpg" /></a>
+    <h4 class="blue_glow"> Son brawler préféré</h4> 
+    <img src="image/coltchallenger.jpg">
+    <h4> Son skin préféré </h4>		       
+    <h2>Passons maintenant à son parcours sur Clash Royale.</h2>
+    <h2>LGD Fireball à commencer Clash Royale le jour de sa sortie internationnal, le 2 mars 2016. Il a commencé à l'arène 1 qui était très facile jusqu'a l'arène 5 car il a galéré à monter en jouant un deck pekka. Puis à l'arène 6, il découvra le golem, cette carte à réussi à séduire LGD Fireball qui a tt de suite jouer à partir de l'arène 6 jusqu'a l'arène 13, qui est la dernière arène du jeu. Son deck est très original, ne joue pas un deck golem de la méta et arrive à surprendre les autres joueurs car ils s'attendent pas à ce genre de deck. </h2>
+    <h2> Son deck:</h2>
+
+<div class="gallery">
+  <a target="_blank" href="image/golem.png">  	  	
+  	<img src="image/golem.png" alt="golem" width="200" height="200">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/sorcière.png">
+    <img src="image/sorcière.png" alt="sorcière"width="200" height="200">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/chauve.png">
+    <img src="image/chauve.png" alt="chauve" width="200" height="200">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/gang.png">
+    <img src="image/gang.png" alt="gang" width="200" height="200">
+  </a>
+
+</div>
+<div class="gallery">
+  <a target="_blank" href="image/elexir.png">  	  	
+  	<img src="image/elexir.png" alt="elexir" width="200" height="200">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/gargouille.png">
+    <img src="image/gargouille.png" alt="gargouille"width="200" height="200">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/zap.png">
+    <img src="image/zap.png" alt="zap" width="200" height="200">
+  </a>
+
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="image/dragon.png">
+    <img src="image/dragon.png" alt="dragon" width="200" height="200">
+  </a>
+
+</div>
+		
+		</h2>
+    	<h3> Deck à l'aise et Hardcounter.</h3>
+    	<h4> Deck à l'aise: Géneralement les decks cochons et parfois les decks rapides mais faut pas faire d'erreur.</h4>
+    	<h4> Hardcounter: Hardcounter du siècle de son deck est les decks pekka, électro sorcier. 
+		 <a href="page2.html">Page N°2> </a>
+        </body>
+        <script src="script.js"></script>
+		</html>
+
+    

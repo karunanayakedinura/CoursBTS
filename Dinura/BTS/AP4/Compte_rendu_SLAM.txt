@@ -1,0 +1,15 @@
+Compte_rendu_SLAM du 19/01/2023
+
+Groupe 4 SLAM : Karunanayake Dinura , Le Pennec Yann-Ronan
+
+Les Objectifs à accomplir : 
+
+Faire la mission 2 (Chiffrement) et la mission 5 (Evolution et développement application WEB Facturation)
+
+Ce que l'on a fait lors de la séance :
+
+On s'est focalisé uniquement sur la mission afin de s'avancer le plus vite possible , nous avons fini la partie compléments_HTM. C'est à dire que nous avons fait les tableaux HTML, le formulaire en HTML et son amélioration de sa présentation.
+
+Difficultés rencontrée: 
+
+On était pas en présentiel, on a donc du se prendre en contact en étant en appel discord afin de pouvoir travailler ensemble.

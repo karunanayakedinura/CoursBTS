@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html> 
+
+<STRONG>Page 4 : formulaire brut</STRONG>
+  
+ <link rel="stylesheet" type="text/css" href="style.css">
+
+
+  <div align="right">
+<a href="index.html"> Page Principale </a>
+</div>
+
+
+<div align="right">
+<a href="exo_tableau_1.html"> Page 2 : exo_tableau_1 </a>
+</div>
+
+<div align="right">
+<a href="SIO1.html"> Page 2 : tableau coeff </a>
+</div>
+
+<div align="right">
+<a href="formulaire_joli.html">Page 5 : formulaire jolie </a>
+</div>
+
+ <div align="center">
+<body>
+  <h2>Services Informatiques aux Organisations</h2>
+  <h3>Les Formulaires</h3>
+
+
+
+
+
+<div align = left>
+<label for="nom">Votre nom  : </label>
+<input type="text" id="nom" name="nom" required>
+  <br>
+<label for="prénom">Votre prénom : </label>
+<input type="text" id="prénom" name="prénom" required>
+<form action="/page-traitement-donnees" method="post">
+  
+   <p>Cochez les matières que vous aimez :</p>
+   <input type="checkbox" name="informatique" value="informatique">Informatique<br> 
+   <input type="checkbox" name="français" value="français">Français<br> 
+   <input type="checkbox" name="mathématiques" value="mathématiques">Mathématiques<br> 
+   <input type="checkbox" name="anglais" value="A
+     anglais">Anglais 
+</p> 
+   <p>Quelle option avez-vous choisie :</p>
+   <input type="radio" name="option" value="SLAM">SLAM<br> 
+   <input type="radio" name="option" value="SISR">SISR 
+</p> 
+  
+<label for="sujet">Quelle est votre seconde langue :</label>
+<select name="sujet" id="sujet" required>
+<option value="" disabled selected hidden>Choisissez la langue</option>
+<option value="Espagnol">Espagnol</option>
+<option value="Anglais">Anglais</option>
+<option value="Allemand">Allemand</option>
+<option value="Autres">Autres</option>
+<option value="Aucune">Aucune</option>
+</select>
+</div>
+
+<p>
+<div align = left>
+<label for="message">Vos observations : </label>
+  <br>
+<textarea id="message" name="message" placeholder="Votres avis nous intéresse...." required></textarea>
+</div>
+  
+</form>
+</html> 

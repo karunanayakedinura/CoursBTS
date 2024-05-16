@@ -1,0 +1,14 @@
+ALGO Kfes
+CSTE TVA=0.2
+VAR pc : Réel
+    i : entier	
+DEBUT
+	Afficher "ce programme calcule et affiche le prix TTC d’un café puis de 10 cafés"
+	POUR i DE 1 A 5 FAIRE
+		Afficher "Saisir le prix hors taxe d’un café"
+		Saisir pc
+		Afficher "le prix TTC d’un café est : " pc*(1+TVA)
+		Afficher "le prix TTC de 10 cafés est : " pc*(1+TVA)*10
+	FINPOUR
+FIN
+

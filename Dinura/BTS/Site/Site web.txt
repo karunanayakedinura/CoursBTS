@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<title> CV et lettre de motivation.</title>
+    </head>
+
+    <body>
+	<h1> CV et lettre de motivation de l'équipe 3.</h1>
+	<h2> Le CV et la lettre de motivation de Karunanayake Dinura. </h2>
+	<p> Son CV </p>
+
+	<p> Sa lettre de motivation </p>
+
+	<h2> Le CV et la lettre de motivation de Doppia Calvin. </h2>		
+	<p> Son CV </p>
+	
+	<p> Sa lettre de motivation </p>
+
+	<h2> Le CV et la lettre de motivation de Mukunayi Dan. </h2>
+	<p> Son CV </p>
+	
+	<p> Sa lettre de motivation </p>
+
+	<h2> Le CV et la lettre de motivation de Torres Matteo. </h2>
+	<p> Son CV </p>
+	
+	<p> Sa lettre de motivation </p>
+
+	
+	 

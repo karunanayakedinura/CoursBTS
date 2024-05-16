@@ -1,0 +1,16 @@
+h1
+{
+	color: black;
+	text-align: center;	
+}
+body
+{
+   	background-image: url("image/fonds.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+	text-align: center;
+h2
+{
+	color: indianred;
+	text-align: left;
+}

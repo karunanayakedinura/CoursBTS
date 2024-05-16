@@ -1,0 +1,40 @@
+ALGO Secondes
+VAR
+	sec,seci,HH,MM,SS : entiers
+DEBUT 
+	AFFICHER("Ce programme va convertir les secondes sous la forme heure:minute:seconde.")
+	AFFICHER("Sélectionner votre nombre de secondes.") 
+	SAISIR(sec)
+	TANTQUE sec < 0 OU sec > 86400 FAIRE
+		AFFICHER("Erreur : votre nombre de secondes doit etre compris entre 0 et 86400.")
+		AFFICHER("Selectionner votre nombre de secondes.
+		SAISIR(sec)
+	FINTANTQUE
+	seci <-- sec
+	HH <-- 0
+	MM <-- 0
+	SS <-- 0
+	TANTQUE sec >= 3600 FAIRE
+		sec <-- sec - 3600
+		HH <-- HH + 1
+	FINTANTQUE
+	TANTQUE sec >= 60 FAIRE 
+		sec <-- sec - 60
+		MM <-- MM + 1
+	FINTANTQUE
+	SS <-- sec 
+	AFFICHER ("La conversion de",seci,"est de",HH,':',MM,':',SS)
+
+
+
+2)Ecrire le programme qui permet de saisir un horaire au format HH:MM:SS et qui affiche la conversion en nb de secondes.
+
+3)Convertir vos 2 programmes en sous-programmes.
+
+4)A partir de la saisie de 2 horaires au format H,M,S calculer et afficher la différence en secondes de ces 2 horaires, puis l'afficher en h,m,s (utiliser des sous programmes) 
+
+ALGO Convertion 
+VAR 
+	HH,MM,SS,conv:entiers
+DEBUT
+	AFFICHER("Ce programme va convertir le  

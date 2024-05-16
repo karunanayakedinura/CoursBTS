@@ -1,0 +1,18 @@
+sources 
+WAP2-SKP
+https://azurplus.fr/devriez-vous-utiliser-wpa2-aes-wpa2-tkip-ou-les-deux/
+https://www.malekal.com/les-protocoles-de-securite-wifi-wep-wpa-wpa2-et-wpa3/
+SSID 
+
+TKIP
+https://fr.wikipedia.org/wiki/Temporal_Key_Integrity_Protocol
+
+Les messages DHCP sont transmises via UDP. Bien que peu fiable, 
+ce protocole suffit au transport des paquets simples sur réseau local, 
+et surtout il est très léger, donc intéressant pour les petits systèmes 
+(du genre le micro bout de programme qui fait la requête DHCP lorsque le PC se 
+met en route). De facto, DHCP fonctionne aussi en mode non connecté.
+ Le client n’utilise que le port 68 pour envoyer et recevoir ses messages  de la 
+même façon, le serveur envoie et reçoit ses messages sur un seul port, le port 67.
+
+https://www.frameip.com/dhcp/#:~:text=Les%20messages%20DHCP%20sont%20transmises%20via%20UDP.%20Bien,DHCP%20lorsque%20le%20PC%20se%20met%20en%20route%29.

@@ -1,0 +1,83 @@
+mysql> create database m2l;
+Query OK, 1 row affected (0.01 sec)
+
+mysql> use m2l;
+Database changed
+
+mysql> source createtablemdl.sql;
+Query OK, 0 rows affected (0.02 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+Query OK, 0 rows affected (0.01 sec)
+
+mysql> source insertm2l.sql;
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 4 rows affected (0.01 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
++--------+-----------+-------------------+
+| Compte | Intitule  | Tresorier         |
++--------+-----------+-------------------+
+| 411007 | Basket    | Valerie LAHEURTE  |
+| 411008 | Escrime   | Pierre LENOIR     |
+| 411009 | fOOT      | Mohamed BOURGARD  |
+| 411010 | Baby-Foot | Sylvain DELAHOUSE |
++--------+-----------+-------------------+
+4 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 4 rows affected (0.00 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
++--------------+---------------------------+-------+
+| Code         | Libelle                   | Pu    |
++--------------+---------------------------+-------+
+| AFFRAN       | Affranchissement          | 3.330 |
+| PHOTOCOULEUR | Photocopies couleur       | 0.240 |
+| PHOTON&B     | Photocopies Noir et Blanc | 0.055 |
+| Traceur      | Utilisation de traceur    | 0.356 |
++--------------+---------------------------+-------+
+4 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 4 rows affected (0.00 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
++------------+--------------+----------+
+| NumFacture | Code         | Quantite |
++------------+--------------+----------+
+| 5172       | AFFRAN       |        0 |
+| 5172       | PHOTOCOULEUR |      300 |
+| 5172       | PHOTON&B     |      552 |
+| 5172       | Traceur      |        2 |
++------------+--------------+----------+
+4 rows in set (0.00 sec)
+
+Query OK, 0 rows affected (0.00 sec)
+
+Query OK, 2 rows affected (0.00 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
++------------+--------+------------+------------+
+| NumFacture | Compte | Dates      | Echeance   |
++------------+--------+------------+------------+
+| 5172       | 411007 | 2011-04-08 | 2011-04-30 |
+| 5174       | 411010 | 2012-02-12 | 2012-02-29 |
++------------+--------+------------+------------+
+2 rows in set (0.00 sec)
+
+mysql> notee

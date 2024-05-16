@@ -1,0 +1,54 @@
+ALGO Calculatrice 3.0
+
+VAR
+	nombre1,nombre2 : réels
+    	a,b,boucle : entiers
+    	operateur : caractère
+DEBUT
+    	AFFICHER("Cette calculatrice permet de calculer les operations suivantes: somme, soustraction, multiplication, division, modulo, puissance, valeur absolue.")
+    	boucle <-- 1
+    	TANT QUE boucle = 1 FAIRE
+        	AFFICHER("Veuillez saisir un premier nombre , puis un deuxieme nombre.")
+        	SAISIR(nombre1,nombre2)
+        	a <-- (entiers) nombre1
+       	 	b <-- (entiers) nombre2
+        	AFFICHER("Veuillez saisir votre operateur: Pour la somme :'+' Pour la difference :'-' Pour le produit :'*' Pour le quotient :'/' Pour le modulo :'m' Pour la puissance :'^' Pour la valeur absolue :'|'")
+        	SAISIR(operateur)
+        	SELON CAS operateur FAIRE      
+        	'+' : AFFICHER("La somme de ",nombre1," + ",nombre2," = ",nombre1+nombre2)
+            	
+            	'-' : AFFICHER("La difference de ",nombre1," - ",nombre2," = ",nombre1-nombre2)
+            	
+            	'*' : AFFICHER("Le produit de ",nombre1," x ",nombre2," = ",nombre1*nombre2)
+            	
+            	'/' : AFFICHER("Le quotient de ",nombre1," / ",nombre2," = ",nombre1/nombre2)
+            	
+            	'm' :
+                	SI nombre1<nombre2 ALORS
+                    		AFFICHER("Erreur de saisie , le premier nombre doit etre plus grand que le deuxieme nombre.")
+                	SINON
+                    		AFFICHER("Le modulo de de vos 2 nombres est egale",a MOD b)
+           	
+            	'^' : AFFICHER("Le resultat du premier nombre exposant du deuxieme nombre est de" nombre1^nombre2)
+            	
+            	'|' :
+                	SI nombre1 >= 0 ET nombre2 >= 0 ALORS
+                    		AFFICHER("La valeur absolue de vos 2 nombres sera de",nombre1," et ",nombre2)
+                    		SINON SI nombre1 >= 0 ET nombre2 <=0 ALORS
+                        		AFFICHER("La valeur absolue de vos 2 nombres sera de",nombre1," et ",-nombre2)
+                        		SINON SI nombre1 <= 0 ET nombre2 >= 0 ALORS
+                            			AFFICHER("La valeur absolue de vos 2 nombres sera de",-nombre1," et ",nombre2)
+                	SINON
+                    		AFFICHER("La valeur absolue de vos 2 nombres sera de",-nombre1," et ",-nombre2)
+            
+					FINSI
+				FINSI
+			FINSI
+
+            	AUTREMENT : AFFICHER("Erreur de saisie : l'operateur doit etre: Pour la somme :'+' Pour la difference :'-'nPour le produit :'*'Pour le quotient :'/'Pour le modulo :'m' Pour la puissance :'^' Pour la valeur absolue :'|') ")
+           	FINSELON
+        	AFFICHER("Voulez vous refaire un autre calcul? (Saisir '1' pour effectuer un autre calcul et '0' pour arreter.)")
+        	SAISIR(boucle)
+	FINTANTQUE        
+    	AFFICHER("Arret de la calculatrice.")
+FIN
